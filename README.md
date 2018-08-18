@@ -1,21 +1,12 @@
 # Alfred
 
-**TODO: Add description**
+Sample chatbot created during Agora Workshop about Elixir ChatBot
 
-## Installation
+## Setup
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `alfred` to your list of dependencies in `mix.exs`:
+```bash
+mix do deps.get, deps.compile
+mix run --no-halt
 
-```elixir
-def deps do
-  [
-    {:alfred, "~> 0.1.0"}
-  ]
-end
+alfred giph me penguin
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/alfred](https://hexdocs.pm/alfred).
-
